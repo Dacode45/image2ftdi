@@ -219,5 +219,4 @@ func main() {
 	sendImageToFTDI(byteBuffer)
 	fmt.Println("Step 4 SEND IMAGE TO FTDI")
 
-	C.closeDevice()
 }
